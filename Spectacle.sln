@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spectacle", "Spectacle\Spectacle.csproj", "{B2AEEA1C-5338-49A0-909C-F81DCDD2821E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2AEEA1C-5338-49A0-909C-F81DCDD2821E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AEEA1C-5338-49A0-909C-F81DCDD2821E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AEEA1C-5338-49A0-909C-F81DCDD2821E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AEEA1C-5338-49A0-909C-F81DCDD2821E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {383830AA-49E6-4D78-842E-8A36940B3462}
+	EndGlobalSection
+EndGlobal
