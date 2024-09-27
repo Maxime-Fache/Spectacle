@@ -20,14 +20,14 @@
             // création d'un spectateur
             Spectateur s = new Spectateur(userName);
 
-            // tant que l'utilisateur souhaite continuer, le spectacle continu
+            // tant que l'utilisateur souhaite continuer, le spectacle continue
             while (continuer)
             {
                 // le spectateur réagit au tour des dresseurs de singe
                 Console.WriteLine(s.reagirTour(dresseur1.faireJouerTour(), dresseur1.getNomSinge()));
                 Console.WriteLine(s.reagirTour(dresseur2.faireJouerTour(), dresseur2.getNomSinge()));
 
-                //demande pour continuer
+                // demande pour continuer
                 Console.WriteLine("voulez vous continuer? y / n");
                 string rep = Console.ReadLine();
                 if (rep == "y")
@@ -49,7 +49,7 @@
             this.nom = _nom;
         }
 
-        // recoit letour du singe ainsi que son nom et cré la petite phrase d'information
+        // reçoit le tour du singe ainsi que son nom et crée la petite phrase d'information
         public string reagirTour(Tour _tourJoue, string _nomSinge)
         {
             if (_tourJoue.getType() != null)
@@ -128,7 +128,7 @@
         }
     }
 
-    // classe abstraite Tour et 2 classes filles corespondant à un tour d'acrobatie et à un tour de musique
+    // classe abstraite Tour et 2 classes filles correspondant à un tour d'acrobatie et à un tour de musique
     abstract class Tour
     {
         protected string nom { get; set; }
