@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            // déclaration du nom du spectateur de la variable permetant de continuer
+            // déclaration du nom du spectateur et de la variable permetant de continuer
             string userName = "";
             bool continuer = true;
 
